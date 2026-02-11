@@ -94,7 +94,7 @@
       <div class="card-header education-header">
         <h2>🎓 Education</h2>
       </div>
-      <div class="card-content">
+      <div class="card-content" id="Bethany">
         <div class="info-item fade-in">
           <h3>Bachelor of Science in Computer Science & Mathematics</h3>
           <p class="institution">Bethany Lutheran College</p>
@@ -107,7 +107,7 @@
           </ul>
         </div>
         
-        <div class="info-item fade-in">
+        <div class="info-item fade-in" id="highschool">
           <h3>High School Diploma</h3>
           <p class="institution">Themistokli Germenji High School</p>
           <p class="location">Korça, Albania</p>
@@ -164,7 +164,7 @@
         <h2>🚀 Projects</h2>
       </div>
       <div class="card-content">
-        <div class="project-item fade-in">
+        <div class="project-item fade-in" id="pet">
           <div class="project-header">
             <h3>Pet Shelter - Full Stack MERN Application</h3>
             <div class="project-tags">
@@ -181,12 +181,11 @@
             <li>Implemented CRUD functionalities along with real-time validation, toast notifications, and loading state indicators.</li>
           </ul>
           <div class="project-links">
-            <a href="https://shop.joanazacellari.me/" target="_blank" class="project-link">View Project</a>
             <a href="https://github.com/joana0101/Paws-Patrol" target="_blank" class="project-link">GitHub</a>
           </div>
         </div>
 
-        <div class="project-item fade-in">
+        <div class="project-item fade-in" id="pokemon">
           <div class="project-header">
             <h3>Pokepedia - Interactive Pokemon Explorer</h3>
             <div class="project-tags">
@@ -202,46 +201,44 @@
             <li>Built detailed Pokemon pages featuring stats, Pokedex descriptions.</li>
           </ul>
           <div class="project-links">
+            <a href="https://joanazacellari.me/Pokepedia/" target="_blank" class="project-link">View Project</a>
             <a href="https://github.com/joana0101/Pokemon-Project" target="_blank" class="project-link">GitHub</a>
           </div>
         </div>
-        
-        
       </div>
     </section>
-  </main>
 
-<!-- Resume Section -->
+      <!-- Resume Section -->
 <section class="info-section" id="quick-view">
   <div class="card-header resume-header">
-    <h2>📄 Resume – Quick View</h2>
+    <h2>📄 Resume</h2>
   </div>
 
-  <div class="card-content resume-viewer">
-    <iframe 
-      src="/assets/resume.pdf"
-      title="Joana Zacellari Resume"
-      loading="lazy">
-    </iframe>
-
-    <div class="resume-actions">
-      <a 
-        href="/assets/resume.pdf" 
-        target="_blank" 
-        class="project-link">
-        Open in New Tab
-      </a>
-      <a 
-        href="/assets/resume.pdf" 
-        download 
-        class="project-link">
-        Download PDF
-      </a>
+  <div class="card-content">
+    <div class="resume-card">
+      <div class="resume-icon">
+        📋
+      </div>
+      <h3 class="resume-title">View My Resume</h3>
+      <p class="resume-description">View or download my full resume in PDF format</p>
+      <div class="resume-actions">
+        <a 
+          href="/assets/resume1.pdf" 
+          target="_blank" 
+          class="project-link">
+          Open in New Tab
+        </a>
+        <a 
+          href="/assets/resume1.pdf" 
+          download 
+          class="project-link">
+          Download PDF
+        </a>
+      </div>
     </div>
   </div>
 </section>
-
-
+</main>
 
   <!-- Footer -->
   <footer class="footer">
@@ -277,9 +274,8 @@
           </ul>
           <h4 class="mt-30">EDUCATION</h4>
           <ul>
-            <li>Bethany Lutheran College</li>
-            <li>Computer Science & Mathematics</li>
-            <li>Themistokli Germenji High School</li>
+            <li><a href="#Bethany">Bethany Lutheran College</a></li>
+            <li><a href="#highschool">Themistokli Germenji High School</a></li>
           </ul>
         </div>
         
@@ -294,8 +290,8 @@
           </ul>
           <h4 class="mt-30">PROJECTS</h4>
           <ul>
-            <li>Pokepedia - Pokemon Explorer</li>
-            <li>Pet Shelter - MERN App</li>
+            <li><a href="#pokemon">Pokepedia  Pokemon Explorer</a></li>
+            <li><a href="#pet">Pet Shelter  MERN App</a></li>
           </ul>
         </div>
       </nav>
